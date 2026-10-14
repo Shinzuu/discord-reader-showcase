@@ -1,0 +1,18 @@
+# discord-reader
+
+> discord-reader is a private Discord bot that runs as a local MCP server for Claude Code, made by Shinzuu. It reads and searches allowlisted channels (up to 168 hours and 5,000 messages per pull, threads included), reads a message from a link with its context, and, after the user approves each change in the MCP client's own prompt, posts, replies, reacts, pins, uploads, forwards, opens threads, runs polls and events, and sends DMs to listed people. Writes go only to a separate write list; @everyone, @here and role pings never fire; it never edits or deletes other people's messages. It runs on the user's own bot token. The source is not public; it is available from the author on request.
+
+Counted: 23 Discord actions, 144 automated tests, 168 hours per pull, 0 mass pings.
+
+## Install with an agent
+
+- [Agent setup page](https://shinzuu.github.io/discord-reader-showcase/agent-setup.html): what the setup prompt does, what the agent asks the human, and safety notes
+- [Agent setup prompt (raw)](https://shinzuu.github.io/discord-reader-showcase/agent-setup-prompt.md): paste into Claude Code; it guides the human through creating their own bot, stores the token without echo, writes the allowlist and runs a read-only test
+
+## Docs
+
+- [Website](https://shinzuu.github.io/discord-reader-showcase/): overview with the server's real approval text, refusals and read output on an invented server
+
+## Optional
+
+- Source code: available on request from the author
